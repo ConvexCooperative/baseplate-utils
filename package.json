@@ -1,0 +1,53 @@
+{
+  "name": "@single-spa-foundry/utils",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Util functions and types for single-spa foundry",
+  "exports": {
+    ".": "./lib/main.js"
+  },
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "lint": "eslint \"src/**/*\"",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "watch-build": "tsc --watch",
+    "prepare": "husky install",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "types": "lib/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustUtahCoders/single-spa-foundry-utils.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "Joel Denning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustUtahCoders/single-spa-foundry-utils/issues"
+  },
+  "homepage": "https://github.com/JustUtahCoders/single-spa-foundry-utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-typescript": "^7.16.7",
+    "@changesets/cli": "^2.21.1",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.11.0",
+    "eslint-config-ts-important-stuff": "^1.1.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
