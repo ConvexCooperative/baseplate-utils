@@ -15,6 +15,9 @@
     "prepare": "husky install",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "types": "lib/main.d.ts",
   "repository": {
     "type": "git",
