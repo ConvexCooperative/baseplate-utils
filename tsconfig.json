@@ -4,6 +4,7 @@
     "outDir": "lib",
     "declaration": true,
     "module": "ES2022",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "allowJs": true
   }
 }

@@ -1,4 +1,4 @@
-import { mergeDefaultOrgSettings } from "./orgSettings";
+import { mergeDefaultOrgSettings } from "./orgSettings.js";
 
 describe(`orgSettings`, () => {
   describe(`mergeDefaultOrgSettings`, () => {

@@ -3,4 +3,4 @@ export {
   OrgSettings,
   StaticFileProxySettings,
   CORSSettings,
-} from "./orgSettings";
+} from "./orgSettings.js";
