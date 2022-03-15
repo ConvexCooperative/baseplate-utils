@@ -1,6 +1,6 @@
 {
   "name": "@single-spa-foundry/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Util functions and types for single-spa foundry",
   "main": "lib/main.js",
