@@ -1,5 +1,11 @@
 # @single-spa-foundry/utils
 
+## 1.0.2
+
+### Patch Changes
+
+- [#3](https://github.com/JustUtahCoders/single-spa-foundry-utils/pull/3) [`d57383e`](https://github.com/JustUtahCoders/single-spa-foundry-utils/commit/d57383eb5a6333e1725ffa68952d57bf734ec347) Thanks [@joeldenning](https://github.com/joeldenning)! - Fix file extension weird things
+
 ## 1.0.1
 
 ### Patch Changes

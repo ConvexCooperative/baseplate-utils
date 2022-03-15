@@ -8,7 +8,7 @@ pnpm exec changeset add
 
 # Publishing
 
-1. Switch to main branch
+1. Verify clean git status. Then `git checkout main`
 2. `git pull`
 3. `pnpm install`
 4. `GITHUB_TOKEN=yourGithubToken pnpm exec changeset version`
