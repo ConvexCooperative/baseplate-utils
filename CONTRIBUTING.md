@@ -14,3 +14,4 @@ pnpm exec changeset add
 4. `GITHUB_TOKEN=yourGithubToken pnpm exec changeset version`
 5. `git add . && git commit -m "VERSION NUMBER GOES HERE"`
 6. `pnpm exec changeset publish`
+7. `git push --follow-tags`
