@@ -5,6 +5,7 @@ const defaultSettings: OrgSettings = {
     microfrontendProxy: {
       environments: {},
     },
+    cacheControl: "public, max-age=31536000, immutable",
   },
   importMapCacheControl: "public, must-revalidate, max-age=60",
   cors: {
@@ -32,6 +33,7 @@ interface StaticFileSettings {
       [key: string]: StaticFileProxySettings;
     };
   };
+  cacheControl: string;
 }
 
 export interface StaticFileProxySettings {
