@@ -13,6 +13,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "watch-build": "tsc --watch",
+    "prepublishOnly": "pnpm run build",
     "prepare": "husky install",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },

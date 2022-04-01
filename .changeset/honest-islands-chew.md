@@ -1,0 +1,4 @@
+---
+---
+
+Add prepublishOnly script
