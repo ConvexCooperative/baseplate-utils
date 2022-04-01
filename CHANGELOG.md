@@ -1,5 +1,11 @@
 # @single-spa-foundry/utils
 
+## 1.0.3
+
+### Patch Changes
+
+- [#4](https://github.com/JustUtahCoders/single-spa-foundry-utils/pull/4) [`879e819`](https://github.com/JustUtahCoders/single-spa-foundry-utils/commit/879e81975b2c32dc911121691f1c84f4eab03ef4) Thanks [@Ksouffle](https://github.com/Ksouffle)! - Added cache-control header to default settings
+
 ## 1.0.2
 
 ### Patch Changes
