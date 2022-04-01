@@ -9,5 +9,12 @@ describe(`orgSettings`, () => {
         "public, must-revalidate, max-age=60"
       );
     });
+    it(`sets a default cache control for static files`, () => {
+      const finalSettings = mergeDefaultOrgSettings({});
+
+      expect(finalSettings.staticFiles.cacheControl).toBe(
+        "public, max-age=31536000, immutable"
+      );
+    });
   });
 });
