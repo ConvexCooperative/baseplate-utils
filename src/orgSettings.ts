@@ -37,7 +37,7 @@ interface StaticFileSettings {
 }
 
 export interface StaticFileProxySettings {
-  useFoundryHosting: boolean;
+  useBaseplateHosting: boolean;
   customHost: string;
 }
 

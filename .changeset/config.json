@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/@changesets/config@1.7.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "JustUtahCoders/single-spa-foundry-utils" }
+    { "repo": "JustUtahCoders/baseplate-utils" }
   ],
   "commit": false,
   "fixed": [],

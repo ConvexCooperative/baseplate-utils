@@ -1,8 +1,8 @@
 {
-  "name": "@single-spa-foundry/utils",
+  "name": "@baseplate-sdk/utils",
   "version": "1.0.3",
   "type": "module",
-  "description": "Util functions and types for single-spa foundry",
+  "description": "Util functions and types for Baseplate",
   "main": "lib/main.js",
   "exports": {
     ".": "./lib/main.js"
@@ -23,17 +23,17 @@
   "types": "lib/main.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustUtahCoders/single-spa-foundry-utils.git"
+    "url": "git+https://github.com/JustUtahCoders/baseplate-utils.git"
   },
   "files": [
     "lib"
   ],
   "author": "Joel Denning",
-  "license": "MIT",
+  "license": "See LICENSE file",
   "bugs": {
-    "url": "https://github.com/JustUtahCoders/single-spa-foundry-utils/issues"
+    "url": "https://github.com/JustUtahCoders/baseplate-utils/issues"
   },
-  "homepage": "https://github.com/JustUtahCoders/single-spa-foundry-utils#readme",
+  "homepage": "https://github.com/JustUtahCoders/baseplate-utils#readme",
   "devDependencies": {
     "@babel/core": "^7.17.7",
     "@babel/eslint-parser": "^7.17.0",
