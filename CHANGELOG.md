@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 2.0.0
+
+### Major Changes
+
+- [#5](https://github.com/JustUtahCoders/baseplate-utils/pull/5) [`837dd62`](https://github.com/JustUtahCoders/baseplate-utils/commit/837dd62eac8883ca48661d767c1855629a9fced8) Thanks [@joeldenning](https://github.com/joeldenning)! - Switch npm scope and license. Now published under `@baseplate-sdk/utils`. License is now AGPL 3 + Commons Clause.
+
 ## 1.0.3
 
 ### Patch Changes
