@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 3.0.0
+
+### Major Changes
+
+- [#6](https://github.com/JustUtahCoders/baseplate-utils/pull/6) [`e9a9765`](https://github.com/JustUtahCoders/baseplate-utils/commit/e9a9765620bf474639cee323f8c1b421bc39da93) Thanks [@joeldenning](https://github.com/joeldenning)! - Rename customHost to host
+
 ## 2.0.0
 
 ### Major Changes
