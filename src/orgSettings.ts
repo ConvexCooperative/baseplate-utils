@@ -38,7 +38,7 @@ interface StaticFileSettings {
 
 export interface StaticFileProxySettings {
   useBaseplateHosting: boolean;
-  customHost: string;
+  host: string;
 }
 
 export interface OrgSettings {
