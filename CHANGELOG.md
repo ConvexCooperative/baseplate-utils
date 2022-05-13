@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 3.1.0
+
+### Minor Changes
+
+- [#7](https://github.com/JustUtahCoders/baseplate-utils/pull/7) [`254662d`](https://github.com/JustUtahCoders/baseplate-utils/commit/254662d091ee5cb3e9e1f98277ddea098416a0b4) Thanks [@Ksouffle](https://github.com/Ksouffle)! - added aws secrets to StaticFileProxySettings
+
 ## 3.0.0
 
 ### Major Changes
