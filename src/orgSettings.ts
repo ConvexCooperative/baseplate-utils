@@ -39,7 +39,7 @@ interface StaticFileSettings {
 export interface StaticFileProxySettings {
   useBaseplateHosting: boolean;
   host: string;
-  aws: {
+  aws?: {
     region: string;
     accessKeyId: string;
     secretAccessKey: string;
