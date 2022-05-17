@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 3.1.1
+
+### Patch Changes
+
+- [#8](https://github.com/JustUtahCoders/baseplate-utils/pull/8) [`a703951`](https://github.com/JustUtahCoders/baseplate-utils/commit/a703951fce06470fc60914bcddf774ba4c55af7d) Thanks [@joeldenning](https://github.com/joeldenning)! - Add environmentId to proxysettings
+
 ## 3.1.0
 
 ### Minor Changes
