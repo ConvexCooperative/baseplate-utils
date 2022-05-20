@@ -1,4 +1,4 @@
-import { merge } from "lodash-es";
+import { mergeWith } from "lodash-es";
 
 const defaultSettings: OrgSettings = {
   staticFiles: {
@@ -23,7 +23,14 @@ const defaultSettings: OrgSettings = {
 export function mergeDefaultOrgSettings(
   orgSettings: RecursivePartial<OrgSettings>
 ): OrgSettings {
-  const finalSettings: OrgSettings = merge({}, defaultSettings, orgSettings);
+  const finalSettings: OrgSettings = mergeWith(
+    {},
+    defaultSettings,
+    orgSettings,
+    (newValue, oldValue) => {
+      return oldValue === null ? newValue : undefined;
+    }
+  );
   return finalSettings;
 }
 
