@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 3.1.2
+
+### Patch Changes
+
+- [#9](https://github.com/JustUtahCoders/baseplate-utils/pull/9) [`4b2571f`](https://github.com/JustUtahCoders/baseplate-utils/commit/4b2571f0b4899d3d56d38a01da7df7ed46246113) Thanks [@joeldenning](https://github.com/joeldenning)! - Fix handling of null values
+
 ## 3.1.1
 
 ### Patch Changes
