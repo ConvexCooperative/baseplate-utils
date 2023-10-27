@@ -28,6 +28,12 @@ describe(`orgSettings`, () => {
           exposeHeaders: null,
           maxAge: null,
         },
+        customDomain: {
+          customCDNTestDomain: null,
+          customCDNProdDomain: null,
+          customCDNTestCloudflareIdentifier: null,
+          customCDNProdCloudflareIdentifier: null,
+        },
       });
 
       expect(finalSettings.cors.allowCredentials).toEqual(true);
@@ -41,6 +47,14 @@ describe(`orgSettings`, () => {
         "HEAD",
         "OPTIONS",
       ]);
+      expect(finalSettings.customDomain.customCDNTestDomain).toBeNull();
+      expect(
+        finalSettings.customDomain.customCDNTestCloudflareIdentifier
+      ).toBeNull();
+      expect(finalSettings.customDomain.customCDNProdDomain).toBeNull();
+      expect(
+        finalSettings.customDomain.customCDNProdCloudflareIdentifier
+      ).toBeNull();
     });
   });
 });

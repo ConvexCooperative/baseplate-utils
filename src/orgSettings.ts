@@ -18,6 +18,12 @@ const defaultSettings: OrgSettings = {
     allowMethods: ["GET", "HEAD", "OPTIONS"],
   },
   orgExists: false,
+  customDomain: {
+    customCDNTestDomain: null,
+    customCDNProdDomain: null,
+    customCDNTestCloudflareIdentifier: null,
+    customCDNProdCloudflareIdentifier: null,
+  },
 };
 
 export function mergeDefaultOrgSettings(
@@ -59,6 +65,7 @@ export interface OrgSettings {
   importMapCacheControl: string;
   cors: CORSSettings;
   orgExists: boolean;
+  customDomain: CustomDomainSettings;
 }
 
 export interface CORSSettings {
@@ -68,6 +75,13 @@ export interface CORSSettings {
   allowCredentials: boolean;
   allowMethods: string[];
   allowHeaders: string[];
+}
+
+export interface CustomDomainSettings {
+  customCDNTestDomain?: string;
+  customCDNProdDomain?: string;
+  customCDNTestCloudflareIdentifier?: string;
+  customCDNProdCloudflareIdentifier?: string;
 }
 
 // https://stackoverflow.com/questions/41980195/recursive-partialt-in-typescript
