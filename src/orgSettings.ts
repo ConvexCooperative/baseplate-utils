@@ -18,7 +18,12 @@ const defaultSettings: OrgSettings = {
     allowMethods: ["GET", "HEAD", "OPTIONS"],
   },
   orgExists: false,
-  customDomain: {},
+  customDomain: {
+    customCDNTestDomain: null,
+    customCDNProdDomain: null,
+    customCDNTestCloudflareIdentifier: null,
+    customCDNProdCloudflareIdentifier: null,
+  },
 };
 
 export function mergeDefaultOrgSettings(
