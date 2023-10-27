@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 3.1.3
+
+### Patch Changes
+
+- [#10](https://github.com/JustUtahCoders/baseplate-utils/pull/10) [`702c359`](https://github.com/JustUtahCoders/baseplate-utils/commit/702c3597f7d153dd72bfd7ec68fa0d4346033d10) Thanks [@asekito](https://github.com/asekito)! - Custom domain settings for OrgSetting type
+
 ## 3.1.2
 
 ### Patch Changes
