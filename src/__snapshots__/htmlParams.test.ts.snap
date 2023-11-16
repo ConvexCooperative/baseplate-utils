@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`htmlParams matches snapshot for default params 1`] = `
+Object {
+  "headScripts": Array [],
+  "headStylesheets": Array [],
+  "importMap": Object {
+    "entryModule": "root-config",
+    "name": "systemjs",
+    "type": "systemjs",
+    "useOverrides": true,
+  },
+  "lang": "en",
+  "pageTitle": "Web App",
+  "preloads": Array [],
+}
+`;
