@@ -12,3 +12,5 @@ export {
   HTMLScript,
   HTMLStylesheet,
 } from "./htmlParams.js";
+
+export { CustomDomain, CustomDomainPurpose } from "./customDomains.js";
