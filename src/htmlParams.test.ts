@@ -29,7 +29,6 @@ describe(`htmlParams`, () => {
       importMap: {
         name: "main",
         useOverrides: false,
-        entryModule: "@convex/root-config",
       },
     };
     const finalParams = mergeDefaultHtmlParams(params);
@@ -37,9 +36,6 @@ describe(`htmlParams`, () => {
     expect(finalParams.importMap.name).toBe(params.importMap!.name);
     expect(finalParams.importMap.useOverrides).toBe(
       params.importMap!.useOverrides
-    );
-    expect(finalParams.importMap.entryModule).toBe(
-      params.importMap!.entryModule
     );
   });
 });

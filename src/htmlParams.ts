@@ -8,7 +8,10 @@ const defaultParams: HTMLTemplateParams = {
     type: "systemjs",
     name: "systemjs",
     useOverrides: true,
-    entryModule: "root-config",
+  },
+  pageInit: {
+    type: "single-spa",
+    layoutTemplate: "<routes></routes>",
   },
   preloads: [],
   headScripts: [],
@@ -37,11 +40,23 @@ export interface HTMLTemplateParams {
     type: "systemjs" | "native";
     name: string;
     useOverrides: boolean;
-    entryModule: string;
   };
+  pageInit: HTMLPageInit;
   preloads: HTMLPreload[];
   headScripts: HTMLScript[];
   headStylesheets: HTMLStylesheet[];
+}
+
+export type HTMLPageInit = ModulePageInit | SingleSpaPageInit;
+
+export interface ModulePageInit {
+  type: "module";
+  entryModule: string;
+}
+
+export interface SingleSpaPageInit {
+  type: "single-spa";
+  layoutTemplate: string;
 }
 
 export interface HTMLPreload {

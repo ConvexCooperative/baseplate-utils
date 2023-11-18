@@ -5,12 +5,15 @@ Object {
   "headScripts": Array [],
   "headStylesheets": Array [],
   "importMap": Object {
-    "entryModule": "root-config",
     "name": "systemjs",
     "type": "systemjs",
     "useOverrides": true,
   },
   "lang": "en",
+  "pageInit": Object {
+    "layoutTemplate": "<routes></routes>",
+    "type": "single-spa",
+  },
   "pageTitle": "Web App",
   "preloads": Array [],
 }
