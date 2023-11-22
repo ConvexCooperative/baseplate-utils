@@ -11,7 +11,7 @@ const defaultParams: HTMLTemplateParams = {
   },
   pageInit: {
     type: "single-spa",
-    layoutTemplate: "<routes></routes>",
+    layoutTemplate: "<single-spa-router></single-spa-router>",
   },
   preloads: [],
   headScripts: [],
