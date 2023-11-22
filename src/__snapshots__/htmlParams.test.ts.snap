@@ -11,7 +11,7 @@ Object {
   },
   "lang": "en",
   "pageInit": Object {
-    "layoutTemplate": "<routes></routes>",
+    "layoutTemplate": "<single-spa-router></single-spa-router>",
     "type": "single-spa",
   },
   "pageTitle": "Web App",
