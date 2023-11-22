@@ -1,5 +1,15 @@
 # @baseplate-sdk/utils
 
+## 3.2.0
+
+### Minor Changes
+
+- [#12](https://github.com/JustUtahCoders/baseplate-utils/pull/12) [`76faf11`](https://github.com/JustUtahCoders/baseplate-utils/commit/76faf1111a2b261326636ace4ff982a717b13f7e) Thanks [@joeldenning](https://github.com/joeldenning)! - Implement mergeDefaultHtmlParams function
+
+### Patch Changes
+
+- [#12](https://github.com/JustUtahCoders/baseplate-utils/pull/12) [`76faf11`](https://github.com/JustUtahCoders/baseplate-utils/commit/76faf1111a2b261326636ace4ff982a717b13f7e) Thanks [@joeldenning](https://github.com/joeldenning)! - Add typings for CustomDomain values in KV storage
+
 ## 3.1.3
 
 ### Patch Changes
