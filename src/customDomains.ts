@@ -5,6 +5,7 @@
 export interface CustomDomain {
   orgKey: string;
   purpose: CustomDomainPurpose;
+  isProd: boolean;
   customerEnv?: string;
   webAppHtmlFilename?: string;
 }
