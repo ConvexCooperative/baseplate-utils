@@ -1,6 +1,6 @@
 {
   "name": "@baseplate-sdk/utils",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "type": "module",
   "description": "Util functions and types for Baseplate",
   "main": "lib/main.js",

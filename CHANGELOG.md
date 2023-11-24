@@ -1,5 +1,11 @@
 # @baseplate-sdk/utils
 
+## 3.2.1
+
+### Patch Changes
+
+- [#13](https://github.com/JustUtahCoders/baseplate-utils/pull/13) [`7b3303a`](https://github.com/JustUtahCoders/baseplate-utils/commit/7b3303a4c07bd3302019cbc738fca839d3699e4c) Thanks [@joeldenning](https://github.com/joeldenning)! - Add isProd property to CustomDomain type
+
 ## 3.2.0
 
 ### Minor Changes
