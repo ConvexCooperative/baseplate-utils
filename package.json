@@ -23,7 +23,7 @@
   "types": "lib/main.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustUtahCoders/baseplate-utils.git"
+    "url": "git+https://github.com/ConvexCooperative/baseplate-utils.git"
   },
   "files": [
     "lib"
@@ -31,9 +31,9 @@
   "author": "Joel Denning",
   "license": "See LICENSE file",
   "bugs": {
-    "url": "https://github.com/JustUtahCoders/baseplate-utils/issues"
+    "url": "https://github.com/ConvexCooperative/baseplate-utils/issues"
   },
-  "homepage": "https://github.com/JustUtahCoders/baseplate-utils#readme",
+  "homepage": "https://github.com/ConvexCooperative/baseplate-utils#readme",
   "devDependencies": {
     "@babel/core": "^7.17.7",
     "@babel/eslint-parser": "^7.17.0",
